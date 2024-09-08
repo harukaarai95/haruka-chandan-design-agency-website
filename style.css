@@ -1,0 +1,17 @@
+@import url(./css/desktop.css);
+@import url(./css/tablet.css);
+@import url(./css/mobile.css);
+@import url(./css/font.css);
+
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-size-normal: 20px;
+    --color-light-blue: #E9F4FF;
+    --color-blue-button: #4361EE;
+}

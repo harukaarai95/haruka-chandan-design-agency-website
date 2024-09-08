@@ -1,0 +1,555 @@
+
+/*For tablet*/
+
+@media (max-width: 1024px) {
+  /************** hero section *****************/
+    #main{/*right blue part*/
+      max-height: 334px;
+    }
+
+    .hero-container .hero-left{
+    width: 354px;
+    height: 219px;
+    margin-top: 6em;
+    }
+
+    .hero-left h1{
+      font-size: 2rem;
+    }
+
+    .hero-container .hero-left button{
+      margin-top: 30px;
+      width: 167px;
+      height: 54px;
+      font-size: 16px;
+    }
+
+    .hero-left button a {
+      font-size: 1.125em;
+      font-weight: bold;
+    }
+    .hero-container .hero-dot img{
+      min-height: 92.5px;
+      min-width: 92.5px;
+      object-fit: cover;
+    }
+
+     .hero-container .hero-right{
+      width: 42%;
+      height: 318px;
+      margin-top: 3em;
+    }
+
+    .hero-container .hero-pic img{
+      height:284.03px;
+      width: 279px;
+      top: 3em;
+      left: .5em;
+    }
+
+/********************* main top **************************/
+  #brand-identity{
+    text-align: center;
+  }
+
+  .top-main-wrap > .top-part-1{
+    width: 648px;
+    height: calc(170px + 3em);
+    margin: 0 auto;
+    padding-top: 3em;
+  }
+
+  .top-main-wrap h2,
+  .services-wrap h2{
+    font-size: 2em;
+}
+
+.top-part-1 p{
+    font-size: 18px;
+  }
+
+  .top-main-wrap > .top-part-2 img{
+    width: 342px;
+    height: 317px;
+    object-fit: cover;
+  }
+
+  .top-main-wrap > .top-part-2{
+    flex-direction: column;
+  }
+  
+  .top-part-2 > .part-2-p{
+    margin-top: 1.5em;
+    width: 100%;
+    height: 209px;
+    text-align: left;
+  }
+
+  .top-part-2 > .part-2-p p{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  /****** services section ********/
+
+  .services-wrap .services-contents{
+    display: grid;
+    width: 80%;
+    height: 780px;
+    row-gap: 40px;
+    column-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(314px, 1fr));
+    overflow: hidden;
+  }
+
+  #service .tile{/* each of tiles*/
+    width: 314px;
+    height: 320px;
+  }
+
+  #service button{
+    width: 11.25em;
+    height: 3.375em;
+    margin-top: 1em;
+  }
+
+  #service button a{ /* delete button's text*/
+    font-size: 0;
+  }
+
+  #service button a:before{ /* change button's text*/
+    font-size: 16px;
+    content:'View More →';
+  }
+/*****************************************/
+
+  /* 기본적으로 모든 텍스트를 숨김 */
+  .mobile,
+  .tablet,
+  .desktop {
+    display: none;
+  }
+  .tablet {
+    display: block; /* 태블릿 텍스트만 보이게 설정 */
+  }
+
+
+  /* section4 */
+  .section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-top: 100px;
+    font-weight: 700;
+  }
+
+  .section4 hr {
+    border: solid 2px #4361ee;
+    border-radius: 10px;
+    width: 93.5px;
+    margin-top: 3px;
+    margin-right: 95px;
+  }
+
+  .slider {
+    display: flex;
+    align-items: center;
+  }
+
+  .purple-rectangle {
+    background-color: #f4f6fe;
+    display: flex;
+    flex-direction: column;
+    width: 482px;
+    height: 686px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    margin-top: 50.77px;
+  }
+
+  .setion4-image {
+    width: 288px;
+    height: 287px;
+  }
+
+  .section4-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .section4-text img {
+    width: 38px;
+  }
+
+  .purple-rectangle p {
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 170%;
+    font-weight: 300;
+  }
+
+  .slider {
+    display: flex;
+  }
+  .prev-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* make circle */
+    background-color: #e9f4ff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* shadow */
+    transition: background-color 0.3s ease; /* 배경색 전환 애니메이션 */
+    font-size: 2rem;
+    color: #1a2630;
+    margin-right: 26px;
+  }
+
+  .next-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* make circle */
+    background-color: #f4f6fe;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* shadow */
+    transition: background-color 0.3s ease; /* 배경색 전환 애니메이션 */
+    font-size: 2rem;
+    color: #1a2630;
+    margin-left: 26px;
+  }
+
+  .pagination {
+    margin-top: 30px;
+  }
+
+  .dot {
+    height: 8px;
+    width: 8px;
+    margin: 0 5px;
+    background-color: #edeff9;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .active {
+    background-color: #1a2630;
+  }
+
+
+  /* section5 */
+  .section5 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .section5 hr {
+    border: solid 2px #4361ee;
+    border-radius: 10px;
+    width: 109px;
+    margin-top: 3px;
+    margin-right: 120px;
+  }
+
+  .blue-rectangle {
+    background-color: #e9f4ff;
+    padding: 60px;
+    margin-top: 75px;
+    width: 100vw;
+    height: 798px;
+    justify-content: space-evenly;
+  }
+
+  .contacts-and-forms {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 두 개의 열로 설정 */
+    gap: 40px;
+    width: 100%; /* 그리드가 부모의 전체 너비를 차지하도록 설정 */
+    justify-items: center; /* 그리드 항목을 수평으로 가운데 정렬 */
+  }
+
+  .contact {
+    display: flex;
+    text-align: left;
+  }
+
+  .contact h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .contact h4 {
+    font-size: 1.125rem;
+    margin-top: 13.5px;
+    font-weight: 400;
+  }
+
+  .contact img {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    margin-top: -5.5px;
+  }
+
+  .form-container {
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    width: 570px;
+    margin-top: 50px;
+  }
+
+  .form-item {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 18px;
+  }
+
+  .form-item label {
+    font-size: 1rem;
+  }
+
+  .form-item input {
+    width: 481px;
+    height: 48px;
+    font-size: 1rem;
+    border: solid 1px;
+    border-color: #e2e7ed;
+    color: #9aa5b3;
+    border-radius: 10px;
+  }
+
+  .form-container button {
+    width: 152px;
+    height: 54px;
+    background-color: #4361ee;
+    font-size: 1.125rem;
+    color: #ffffff;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .form-container button:hover {
+    background-color: #324bbb;
+  }
+
+
+  /* section6 */
+  .section6 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+
+  .section6 hr {
+    border: solid 2px #4361ee;
+    border-radius: 10px;
+    width: 114.5px;
+    margin-top: 3px;
+    margin-right: 80px;
+  }
+
+  .blog-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 77px;
+  }
+
+  .blog {
+    width: 370px;
+    height: 366px;
+    border-radius: 10px;
+    background-color: #e9f4ff;
+    text-align: left;
+  }
+
+  .blog:nth-child(3){
+    display: none;
+  }
+
+  .blog h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 24px 30px 20px 30px;
+    text-align: left;
+  }
+
+  .blog a {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 30px;
+    color: #4361ee;
+  }
+
+  .section6 button {
+    width: 159px;
+    height: 54px;
+    border-radius: 8px;
+    margin-top: 50px;
+    border: none;
+    background-color: #4361ee;
+    color: #ffffff;
+    font-size: 1.125rem;
+    margin-bottom: 130px;
+  }
+
+ 
+
+ /* footer */
+
+ footer {
+    background-color: #03071b;
+    color: #ffffff;
+    padding: 50px 60px 20px 60px;
+    width: 100%;
+  }
+
+  .footer-upper {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 두 개의 열 */
+    grid-template-rows: auto auto; /* 두 개의 행 */
+    grid-template-areas: 
+    "logo form"
+    "contact explore";
+    gap: 50px;
+    width: 100%; /* 그리드가 부모의 전체 너비를 차지하도록 설정 */
+    justify-items: start; /* 항목을 왼쪽 정렬 */
+    align-items: start; /* 각 항목을 위쪽 정렬 */
+}
+  
+  .footer-upper h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  .footer-upper h4 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .footer-upper h5 {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  .footer-logo {
+    margin-bottom: 36px;
+  }
+
+  .footer-social-logo {
+    display: flex;
+    gap: 18px;
+  }
+
+  .footer-logo-container{
+    grid-area:logo;
+  }
+
+  .footer-contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    grid-area: contact;
+  }
+
+  .footer-explore-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    grid-area: explore;
+  }
+
+  .footer-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    grid-area: form;
+    margin-left: -90px;
+  }
+
+  .footer-contact-item {
+    display: flex;
+    gap: 10px;
+  }
+
+  .footer-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-form-container form label {
+    margin-bottom: 18px;
+  }
+
+  .footer-form-container form input {
+    margin-bottom: 14px;
+    width: 370px;
+    height: 48px;
+    background-color: transparent;
+    border-radius: 6px;
+    border-color: #9aa5b3;
+    color: #7b7c82;
+    padding: 15px 16px;
+    border: solid 1px;
+  }
+
+  .footer-form-container form button {
+    margin-top: 20px;
+    padding: 13.5px 16px;
+    font-size: 1rem;
+    width: 150px;
+    height: 46px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4361ee;
+    color: #ffffff;
+  }
+
+  .footer-lower {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  }
+
